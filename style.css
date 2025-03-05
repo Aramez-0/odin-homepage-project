@@ -1,134 +1,134 @@
-html, body {
-    margin: 0;
-    padding: 0;
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
 }
 
 #container {
-    max-width: 1319px;
-    background-color: white;
+  max-width: 1319px;
+  background-color: white;
 }
 
 .photo {
-    max-width: 640px;
+  max-width: 640px;
 }
 
 .offsite-links-container img {
-    width: 20px;
+  width: 20px;
 }
 
 footer div {
-    margin: 10px;
+  margin: 10px;
 }
 
 header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: darkcyan;
-    gap: 15px;
-    padding: 20px;
-}
-
-@media (max-width: 1000px) {
-    header {
-        flex-direction: column;
-        
-    }
-    footer {
-        flex-direction: column;
-    }
-    .about-me-container {
-        width: 90%;
-    }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: darkcyan;
+  gap: 15px;
+  padding: 20px;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
 }
 
 .project-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 300px);
-    gap: 20px;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  gap: 20px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 .project {
-    display: flex;
-    flex-direction: column;
-    max-width: 300px;
-    max-height: 500px;
-    box-shadow: 1px 2px 3px;
-    border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  max-height: 500px;
+  box-shadow: 1px 2px 3px;
+  border-radius: 10px;
 }
 
 .img-placeholder {
-    height: 200px;
-    background-color: red;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+  height: 200px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .project-info {
-    padding: 5px;
+  padding: 5px;
 }
 
 .project h4 {
-    width: fit-content;
+  width: fit-content;
 }
 
 .project-links-container {
-    width: fit-content;
-    margin-left: auto;
+  width: fit-content;
+  margin-left: auto;
 }
 
 .project-links-container img {
-    width: 15px;
+  width: 15px;
 }
 
 .name-link-container {
-    display: flex;
+  display: flex;
 }
 
 footer {
-    background-color: darkcyan;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    padding: 20px;
+  background-color: darkcyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
 }
 
 .contact-info-container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .icon-text-container {
-    display: flex;
-    gap: 5px;
+  display: flex;
+  gap: 5px;
 }
 
 .icon-text-container img {
-    width: 20px;
+  width: 20px;
+}
+
+@media (max-width: 1000px) {
+  header {
+    flex-direction: column;
+  }
+  footer {
+    flex-direction: column;
+  }
+  .about-me-container {
+    width: 90%;
+  }
 }
