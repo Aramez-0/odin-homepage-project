@@ -89,6 +89,10 @@ main {
     border-top-right-radius: 10px;
 }
 
+.project-info {
+    padding: 5px;
+}
+
 .project h4 {
     width: fit-content;
 }
@@ -99,7 +103,7 @@ main {
 }
 
 .project-links-container img {
-    width: 10px;
+    width: 15px;
 }
 
 .name-link-container {
@@ -118,4 +122,13 @@ footer {
 .contact-info-container {
     display: flex;
     flex-direction: column;
+}
+
+.icon-text-container {
+    display: flex;
+    gap: 5px;
+}
+
+.icon-text-container img {
+    width: 20px;
 }
