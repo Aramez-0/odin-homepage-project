@@ -7,12 +7,50 @@ html, body {
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+#container {
+    max-width: 1319px;
+    background-color: white;
+}
+
+.photo {
+    max-width: 640px;
+}
+
+.offsite-links-container img {
+    width: 20px;
+}
+
+footer div {
+    margin: 10px;
+}
+
 header {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: darkcyan;
+    gap: 15px;
     padding: 20px;
+}
+
+@media (max-width: 1000px) {
+    header {
+        flex-direction: column;
+        
+    }
+    footer {
+        flex-direction: column;
+    }
+    .about-me-container {
+        width: 90%;
+    }
 }
 
 main {
@@ -71,6 +109,9 @@ main {
 footer {
     background-color: darkcyan;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
     padding: 20px;
 }
 
